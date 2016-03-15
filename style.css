@@ -1,0 +1,104 @@
+/**
+ * Color Pallete
+ * Blue: rgb(0, 180, 240)
+ *
+ * Sizes
+ * Whitespace: 20px
+ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Container {
+  margin: 0 auto;
+  position: relative;
+}
+
+.Header {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgb(220, 220, 220);
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.Header a {
+  color: rgb(0, 180, 240);
+  font-size: 14px;
+  margin-left: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.Main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  padding: 80px 30px 100px 30px;
+}
+
+.Content {
+  max-width: 700px;
+}
+
+.Content h1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.Content p {
+  color: rgb(100, 100, 100);
+  font-family: 'Merriweather', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 150%;
+  margin: 0 0 40px 0;
+}
+
+.Content p a {
+  color: rgb(0, 180, 240);
+}
+
+.Footer {
+  align-items: center;
+  background-color: rgb(200, 200, 200);
+  bottom: 0;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.Footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 20px;
+}
+
+@media(min-width: 700px) {
+  .Header a {
+    font-size: 16px;
+  }
+
+  .Content h1 {
+    font-size: 24px;
+  }
+
+  .Content p {
+    font-size: 24px;
+  }
+  
+}
